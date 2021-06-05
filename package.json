@@ -1,5 +1,5 @@
 {
-  "name": "planet-coordinates",
+  "name": "orbital-calculator",
   "version": "1.0.0",
   "description": "Calculates the x, y, and z coordinates of an orbital object by name or by celestial properties.",
   "main": "calculator.js",
@@ -18,7 +18,7 @@
     "coordinate"
   ],
   "author": "Kyle Smith",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.28.0",
     "eslint-config-standard": "^16.0.3",
