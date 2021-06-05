@@ -1,0 +1,12 @@
+# General
+* text eol=lf
+
+# Language
+*.js text diff=javascript
+*.json text
+*.md    diff=markdown
+
+# Other Files
+*.png binary
+*.jpeg binary diff=exif
+*.jpg binary diff=exif

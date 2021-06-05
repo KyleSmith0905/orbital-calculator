@@ -1,0 +1,29 @@
+{
+  "name": "planet-coordinates",
+  "version": "1.0.0",
+  "description": "Calculates the x, y, and z coordinates of an orbital object by name or by celestial properties.",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "node test.js",
+    "earth": "node testEarth.js"
+  },
+  "keywords": [
+    "coordinate",
+    "planets",
+    "orbit",
+    "solar",
+    "system",
+    "satellite",
+    "polar",
+    "coordinate"
+  ],
+  "author": "Kyle Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
