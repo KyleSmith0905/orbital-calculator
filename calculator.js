@@ -31,7 +31,7 @@ function orbitalCoordinates (planet, date = new Date(), properties) {
     const planetObj = planets[typeof (planet) === 'string' ? planet.toLowerCase() : planet]
     if (!planetObj) return null
     let planetCoordinates;
-    //console.log (planetObj.special === 'earth', properties?.earthCalculator === undefined, properties?.earthCalculator === true)
+    console.log (planetObj.special === 'earth', properties?.earthCalculator === undefined, properties?.earthCalculator === true)
     if (planetObj.special === 'earth' && (properties?.earthCalculator === undefined || properties?.earthCalculator === true)) planetCoordinates = earthCoordinates(day, properties)
     else planetCoordinates = orbitalCalculator(planetObj.n1, planetObj.n2, planetObj.i1, planetObj.i2, planetObj.w1, planetObj.w2, planetObj.a1, planetObj.a2, planetObj.e1, planetObj.e2, planetObj.m1, planetObj.m2, day, properties)
     return planetCoordinates
