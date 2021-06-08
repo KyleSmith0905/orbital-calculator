@@ -4,7 +4,7 @@ A light-weight calculator to approximate the values of celestial objects using J
 Note: The values for Earth in planets.json don't relate to their real planetary values. The values are approximated by brute forcing different variables. Calculations default to a seperate function that calculate Earth's coordinates.
 
 ## Install
-(Not yet added)
+If there is demand for this to become available on npm or yarn, contact me on my personal Discord: "FiNS Flexin#6193"
 
 ## Usage
 ```js
@@ -19,3 +19,6 @@ orbCalc.orbitalCoordinates('mars', new Date('2012/03/20')) //=>{x: -1.6386,y: 0.
 ## Resources
 Calculations and planetery properties by https://stjarnhimlen.se/comp/ppcomp.html by Paul Schlyter.
 Inspitation and implementation by http://cosinekitty.com/solar_system.html by Cosine Kitty.
+
+## Contact
+For any questions you can contact the creator directly on his personal Discord: "FiNS Flexin#6193"
