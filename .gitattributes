@@ -4,7 +4,7 @@
 # Language
 *.js text diff=javascript
 *.json text
-*.md    diff=markdown
+*.md diff=markdown
 
 # Other Files
 *.png binary
