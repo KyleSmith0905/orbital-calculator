@@ -1,7 +1,7 @@
 # Orbital Calculator
 A light-weight calculator to approximate the values of celestial objects using J2000 epoch.
 
-Note: The values for Earth in planets.json don't relate to their real planetary values. The values are approximated by brute forcing different variables. Calculations default to a seperate function that calculate Earth's coordinates.
+Note: The values for Earth in planets.json don't relate to their real planetary values. The values are approximated by gradient decent. Calculations default to a seperate function that calculate Earth's coordinates.
 
 ## Install
 If there is demand for this to become available on npm or yarn, contact me on my personal Discord: "FiNS Flexin#6193"
